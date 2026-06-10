@@ -33,4 +33,4 @@ jobs:
           context: .
           platforms: linux/amd64
           push: true
-          tags: ghcr.io/dreis2003/springboot-demo:${{ github.sha }}
+          tags: ghcr.io/dreis2003/springboot-demo-ci:${{ github.sha }}
