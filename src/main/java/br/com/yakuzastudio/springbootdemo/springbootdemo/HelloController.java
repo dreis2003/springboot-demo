@@ -12,4 +12,9 @@ public class HelloController {
     public String hello() {
         return "Hello Kubernetes!";
     }
+
+    @GetMapping("/ola")
+    public String hello2() {
+        return "Olá Kubernetes!";
+    }
 }
